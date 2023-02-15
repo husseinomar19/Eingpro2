@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #1e2028;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav h2 span{
+color: white;
+}
+nav h2 {
+    margin: 1rem;
+}
+nav ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+ul  a{
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+}
+ul a:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+.maim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+
+}
+.robot-tekst{
+    width: 50%;
+    padding: 2rem;
+    color: white;
+
+}
+.robot-tekst p{
+    width: 90%;
+}
+.robot-tekst h2{
+    margin-bottom: 1rem;
+
+}
+
+.robot-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.robot-img img{
+   width: 70%;
+   border-radius: 50%;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+}
+.footer{
+   background-color: black;
+   position: relative;
+}
+footer i{
+  font-size: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+/* Hier komt about robot page staat wat soverleg over het robot */
+
+.robotheder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.robotheder img{
+    border-radius: 1rem;
+}
+.robotoverleg{
+    margin-top: 4rem;
+}
+.robotoverleg p{
+    padding: 2rem;
+    color: #fff;
+}
+/* Hier komt team page gaat over de team */
+.teamev3{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+.teaminfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5rem;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+}
+.team i{
+  font-size: 8rem;
+
+}
+.robotimgabout{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+.robotimg  img{
+border-radius: 5px;
+padding: 2rem;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+    color: #fff;
+    
+
+}
+form input{
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
